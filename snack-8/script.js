@@ -30,3 +30,11 @@ console.log(marcoLanciClass)
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+/*
+const findMarcoLanciClass = students.find(
+  (element.name === 'Marco Lanci').class
+)
+
+console.log(findMarcoLanciClass)
+*/
