@@ -32,9 +32,12 @@ console.log(marcoLanciClass)
 // Risultato: '3C'
 
 /*
+E' possibile compattare le due variabili findMarcoLanci e marcoLanciClass in un'unica costante chiamata findMarcoLanciClass che cerca un oggetto che ha la proprietà nome uguale a 'Marco Lanci' la proprietà ed estrae il valore della prorieta Class dello stesso oggetto?
+una roba tipo come è scritto qui sotto (non funziona, è solo per rendere l'idea)
+
 const findMarcoLanciClass = students.find(
   (element.name === 'Marco Lanci').class
 )
-
 console.log(findMarcoLanciClass)
+
 */
