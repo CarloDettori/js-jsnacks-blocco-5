@@ -4,5 +4,13 @@ const people = [
   { name: 'Marco', age: 67 }
 ];
 
+
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+const names = [];
+people.forEach((element, index) => {
+  names.push(element.name)
+});
+
+console.log(names);
